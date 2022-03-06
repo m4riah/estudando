@@ -1,0 +1,27 @@
+body{
+    background:#daf3ea;
+}
+
+#caixa{
+    background-color: #8b7a5e;
+    width: 100px;
+    height: 100px;
+
+   
+     /* transition: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    transition-delay: 500ms;   */
+
+      transition: transform 2s ease; 
+    }
+
+/* PDT ATRASADO */
+
+ 
+
+#caixa:hover{
+    transform: translateX(300px) rotate(360deg);
+     /* transform: rotate(360deg);  */
+}
+
